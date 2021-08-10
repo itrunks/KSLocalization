@@ -125,6 +125,7 @@
 				9E31594223995CFD00F78662 /* Sources */,
 				9E31594323995CFD00F78662 /* Frameworks */,
 				9E31594423995CFD00F78662 /* Resources */,
+				26380AF826C2BEEE00389A08 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -186,6 +187,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26380AF826C2BEEE00389A08 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nGIT=/usr/local/bin/git\n\ncd \"$PROJECT_DIR\"\nGIT_TAG=`$GIT describe --tags --abbrev=0`\nGIT_COMMIT=`$GIT rev-parse --short HEAD`\n\ncd \"$PROJECT_TEMP_DIR\"\necho \"#define GIT_TAG $GIT_TAG\" > revision.prefix\necho \"#define GIT_COMMIT $GIT_COMMIT\" >> revision.prefix\necho \"Versions found:\"\ncat revision.prefix\n\ncd \"$PROJECT_DIR\"\ntouch \"*Info.plist\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E31594223995CFD00F78662 /* Sources */ = {
