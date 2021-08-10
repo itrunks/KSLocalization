@@ -216,8 +216,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "
-";
+			shellScript = "\nhttps://github.com/itrunks/KSLocalization/blob/main/Script/Script.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
