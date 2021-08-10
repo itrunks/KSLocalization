@@ -44,6 +44,7 @@ public final class KSLocalizable {
         }
     }
     
+    //TODO
     public func writeToBundle() throws -> Bundle {
         
         if manager.fileExists(atPath: bundlePath.path) == false {
