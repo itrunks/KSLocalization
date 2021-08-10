@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26380AFB26C2C6B200389A08 /* Script.sh in Resources */ = {isa = PBXBuildFile; fileRef = 26380AFA26C2C6B200389A08 /* Script.sh */; };
 		9E1CE2F7239FBA51008119E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E1CE2F6239FBA51008119E2 /* LaunchScreen.xib */; };
 		9E1CE2FD239FC67D008119E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E1CE2FB239FC67D008119E2 /* Localizable.strings */; };
 		9E1CE300239FC68A008119E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E1CE2FE239FC68A008119E2 /* Localizable.strings */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26380AFA26C2C6B200389A08 /* Script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
 		9E1CE2F6239FBA51008119E2 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		9E1CE2FC239FC67D008119E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		9E1CE2FF239FC68A008119E2 /* ta */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ta; path = Localizable.strings; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26380AF926C2C69D00389A08 /* Script */ = {
+			isa = PBXGroup;
+			children = (
+				26380AFA26C2C6B200389A08 /* Script.sh */,
+			);
+			path = Script;
+			sourceTree = "<group>";
+		};
 		9E1CE2F9239FC66C008119E2 /* ta.lproj */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +90,7 @@
 		9E31593D23995CFC00F78662 = {
 			isa = PBXGroup;
 			children = (
+				26380AF926C2C69D00389A08 /* Script */,
 				9E31594823995CFD00F78662 /* KSLocalization */,
 				9E31594723995CFD00F78662 /* Products */,
 			);
@@ -183,6 +194,7 @@
 				9E1CE2F7239FBA51008119E2 /* LaunchScreen.xib in Resources */,
 				9E1CE306239FEA26008119E2 /* ReadMe.md in Resources */,
 				9E3159612399622B00F78662 /* HomeViewController.xib in Resources */,
+				26380AFB26C2C6B200389A08 /* Script.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +216,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/bash\nbranch=${1:-'master'}\nbuildNumber=$(expr $(git rev-list $branch --count) - $(git rev-list HEAD..$branch --count))\necho \"Updating build number to $buildNumber using branch '$branch'.\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\nif [ -f \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}.dSYM/Contents/Info.plist\" ]; then\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}.dSYM/Contents/Info.plist\"\nfi\n";
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 
