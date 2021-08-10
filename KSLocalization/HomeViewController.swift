@@ -37,6 +37,8 @@ class HomeViewController: UIViewController {
             langSwitch.isSelected = false
         }
     }
+    
+    //Update 
     @objc func updateView() {
         lblOne.text = NSLocalizedString(KSConstants.Labels.key1, tableName: "", bundle: KSLocalizationManager.sharedInstance.currentBundle, value: "", comment: "")
         lblTwo.text = NSLocalizedString(KSConstants.Labels.key2, tableName: "", bundle: KSLocalizationManager.sharedInstance.currentBundle, value: "", comment: "")
