@@ -22,7 +22,7 @@ public final class KSLocalizable {
     static let KSBundleName = "KSLocalizable.bundle"
     let manager = FileManager.default
     lazy var bundlePath: URL = {
-        let documents = URL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!)
+        let documents = URL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.libraryDirectory, .userDomainMask, true).first!)
         let bundlePath = documents.appendingPathComponent(KSLocalizable.KSBundleName, isDirectory: true)
         return bundlePath
     }()
@@ -33,6 +33,7 @@ public final class KSLocalizable {
     }
     
     func clean() throws {
+        
         // TODO: There can be multiple table names in the same Bundle. So only remove the bundle if there is no more string files.
         var _: Dictionary<String, Int> = [:]
         

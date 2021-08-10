@@ -23,7 +23,7 @@ import UIKit
     
     let manager = FileManager.default
     lazy var bundlePath: URL = {
-        let documents = URL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!)
+        let documents = URL(fileURLWithPath: NSSearchPathForDirectoriesInDomains(.libraryDirectory, .userDomainMask, true).first!)
         let bundlePath = documents.appendingPathComponent(KSLocalizable.KSBundleName, isDirectory: true)
         return bundlePath
     }()
