@@ -1,0 +1,35 @@
+{
+	"languages": [{
+		"code": "it",
+    "name": "Italian",
+		"translations": {
+			"key1": "Licenze",
+			"key2": "Posizionare il campo sopra al codice QR o sulla riga del codice della polizza di versamento.",
+			"key3": "Le app e-banking e mobile banking della Banca Migros utilizzano librerie open source. Di seguito sono elencate le librerie open source unitamente alle informazioni che devono essere visualizzate in base alle rispettive condizioni di licenza."
+		}
+	}, {
+		"code": "de",
+    "name": "Deutsch",
+		"translations": {
+			"key1": "Lizenzen",
+			"key2": "Positionieren Sie das Feld über dem QR Code bzw. der Codezeile des Einzahlungsscheins.",
+			"key3": "In dieser App werden Open Source Libraries eingesetzt. Nachfolgend sind diese Open Source Libraries zusammen mit den Informationen aufgeführt, die gemäss den jeweiligen Lizenzbestimmungen angezeigt werden müssen."
+		}
+	}, {
+		"code": "fr",
+    "name": "French",
+		"translations": {
+			"key1": "Licences",
+			"key2": "Positionnez le champ au-dessus du code QR ou de la ligne de code du bulletin de versement.",
+			"key3": "Les applications e-banking et mobile banking de la Banque Migros utilisent des librairies Open Source. Celles-ci sont indiquées ci-après avec les informations à fournir selon les dispositions relatives à la licence."
+		}
+	}, {
+		"code": "en",
+    "name": "English",
+		"translations": {
+			"key1": "Licenses",
+			"key2": "Position the field above the QR code or the code line of the payment slip.",
+			"key3": "Migros Bank's e-banking and mobile banking applications use open source libraries. These are indicated below with the information to be provided in accordance with the provisions relating to the license."
+		}
+	}]
+}
