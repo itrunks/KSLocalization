@@ -23,5 +23,22 @@
 			"key2": "Positionnez le champ au-dessus du code QR ou de la ligne de code du bulletin de versement.",
 			"key3": "Les applications e-banking et mobile banking de la Banque Migros utilisent des librairies Open Source. Celles-ci sont indiquées ci-après avec les informations à fournir selon les dispositions relatives à la licence."
 		}
+	}, {
+		"code": "en",
+    "name": "English",
+		"translations": {
+			"key1": "Licenses",
+			"key2": "Position the field above the QR code or the code line of the payment slip.",
+			"key3": "Migros Bank's e-banking and mobile banking applications use open source libraries. These are indicated below with the information to be provided in accordance with the provisions relating to the license."
+		}
+	},
+, {
+		"code": "ta",
+    "name": "Tamil",
+		"translations": {
+			"key1": "Licenses",
+			"key2": "Position the field above the QR code or the code line of the payment slip.",
+			"key3": "Migros Bank's e-banking and mobile banking applications use open source libraries. These are indicated below with the information to be provided in accordance with the provisions relating to the license."
+		}
 	}]
 }
