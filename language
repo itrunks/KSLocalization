@@ -31,13 +31,5 @@
 			"key2": "Position the field above the QR code or the code line of the payment slip.",
 			"key3": "Migros Bank's e-banking and mobile banking applications use open source libraries. These are indicated below with the information to be provided in accordance with the provisions relating to the license."
 		}
-	}, {
-		"code": "ta",
-    "name": "Tamil",
-		"translations": {
-			"key1": "Licenses",
-			"key2": "Position the field above the QR code or the code line of the payment slip.",
-			"key3": "Migros Bank's e-banking and mobile banking applications use open source libraries. These are indicated below with the information to be provided in accordance with the provisions relating to the license."
-		}
 	}]
 }
