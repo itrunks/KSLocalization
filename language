@@ -19,7 +19,7 @@
 		"code": "fr",
     "name": "French",
 		"translations": {
-			"key1": "Licences",
+			"key1": "Licences fr",
 			"key2": "Positionnez le champ au-dessus du code QR ou de la ligne de code du bulletin de versement.",
 			"key3": "Les applications e-banking et mobile banking de la Banque Migros utilisent des librairies Open Source. Celles-ci sont indiquées ci-après avec les informations à fournir selon les dispositions relatives à la licence."
 		}
