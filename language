@@ -3,7 +3,7 @@
 		"code": "de",
 		"name": "Deutsch",
 		"translations": {
-			"pop_up_common_error_title": "test"
+			"pop_up_common_error_title": "Error De"
 		}
 	}, {
 		"code": "en",
@@ -16,12 +16,6 @@
 		"name": "Miyanmar",
 		"translations": {
 			"pop_up_common_error_title": "အမှား"
-		}
-	},{
-		"code": "ta",
-		"name": "Tamil",
-		"translations": {
-			"pop_up_common_error_title": "Tamil"
 		}
 	}]
 }
